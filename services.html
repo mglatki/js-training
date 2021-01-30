@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="styles/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <!-- <script src="/main.js"></script> -->
   
   <title>Mobile WebApp</title>
 </head>
@@ -55,28 +54,6 @@
       Contact
     </a>
   </footer>
-  <script>
-    var closeMenuButton = document.querySelector(".close_menu__button");
-    var openMenuButton = document.querySelector(".open_menu__button");
-    var menuSec = document.querySelector(".menu");
-    var headerEl = document.querySelector("header");
-    var footerEl = document.querySelector("footer");
-
-    openMenuButton.addEventListener('click', () => {
-      headerEl.classList.toggle('header--expanded');
-      menuSec.classList.toggle('menu--visible');
-      footerEl.classList.toggle('footer--invisible');
-      closeMenuButton.classList.toggle('close_menu__button--visible');
-      openMenuButton.classList.toggle('open_menu__button--invisible');
-    })
-
-    closeMenuButton.addEventListener('click', () => {
-      headerEl.classList.toggle('header--expanded');
-      menuSec.classList.toggle('menu--visible');
-      footerEl.classList.toggle('footer--invisible');
-      closeMenuButton.classList.toggle('close_menu__button--visible');
-      openMenuButton.classList.toggle('open_menu__button--invisible');
-    })
-  </script>
+  <script src="/main.js"></script>
 </body>
 </html>
